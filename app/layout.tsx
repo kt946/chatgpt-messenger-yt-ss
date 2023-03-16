@@ -9,13 +9,13 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body>
-        <div>
+        <div className='flex'>
 
           {/* Sidebar */}
 
           {/* ClientProvider - Notification */}
-          
-          <div>
+
+          <div className='bg-[#343541] flex-1'>
             {children}
           </div>
         </div>
